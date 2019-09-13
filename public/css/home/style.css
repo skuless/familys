@@ -1,0 +1,102 @@
+/* Global */
+* {
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    background-color: black;
+}
+
+.administration {
+    position: absolute;
+    top: 70px;
+    right: 15px;
+    background-color: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 2px solid darkgreen;
+}
+
+.logout {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 2px solid darkgreen;
+}
+
+.administration:hover, .logout:hover {
+    background-color: darkgreen;
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid #fff;
+}
+
+h1 {
+    color: #fff;
+}
+
+img {
+    height: 100%;
+    display: block;
+    margin: 30px auto;
+}
+
+/* div {
+    height: 300px;
+    margin: 100px 0;
+} */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+    margin: 15px;
+}
+
+.btn-familys {
+    color: #fff;
+    background-color: #04B120!important;
+    border-color: #04B120!important;
+}
+
+.titleHome, .titleHome a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.linkHome a{
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    color: grey;
+    font-size: 1rem;
+}
+
+.list-link-home {
+    display: flex;
+}
+
+.list-link-home li{
+    margin: 0 auto;
+}
+
+.list-link-home li:nth-child(2n) {
+    margin-left: 0px;
+}
+
+.list-link-home li:nth-child(2n+1) {
+    margin-right: 50px;
+}
+
+.linkHome a:hover {
+    color: darkgreen;
+    font-size: 1.2rem;
+}
+

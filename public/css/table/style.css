@@ -1,0 +1,106 @@
+/* Global */
+* {
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin: 25px 0;
+}
+
+table {
+    max-width: 90vw;
+    margin: 20px auto;
+    text-align: center;
+    border: darkgreen 2px solid;
+    border-radius: 15px;
+}
+
+thead {
+    color: white;
+    font-size: 1.4rem;
+}
+
+tbody {
+    color: #fff;
+    font-size: 1rem;
+}
+
+button {
+    color: #fff;
+    background-color: black;
+    border: none;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+a {
+    color: darkgreen;
+}
+
+a:hover {
+    border: none;
+    color: darkgreen;
+    margin-bottom: 5px; 
+}
+
+label {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+input, select {
+    padding-left: 10px; 
+    width: 100%;
+    border: 2px solid darkgreen!important;
+    color: #fff;
+    background-color: rgba(0,0,0,0);
+}
+
+.form-admin {
+    display: block;
+    max-width: 500px;
+    margin: 15px auto;
+}
+
+.form-select {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 15px auto;
+}
+
+select {
+    color: darkgreen;
+    padding: 15px 0;
+    text-align: center!important;
+}
+
+
+
+/* btn */
+
+.btn-familys {
+    display: block;
+    color: #fff;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0);
+    border-color: darkgreen;
+}
+
+.btn-admin {
+    margin: 30px auto;
+}
+
+small {
+    font-size: .8rem;
+}

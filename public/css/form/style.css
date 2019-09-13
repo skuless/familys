@@ -1,0 +1,54 @@
+/* Global */
+* {
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0 60px;
+}
+
+form div {
+    display: block;
+    text-align: center;
+}
+
+label {
+    color: #fff;
+}
+
+.title-card {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.card-header-form {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #05B220;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-body-form {
+    background-color: darkgreen;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+/* btn */
+
+.btn-familys {
+    color: #fff;
+    background-color: #04B120;
+    border-color: #04B120;
+}
