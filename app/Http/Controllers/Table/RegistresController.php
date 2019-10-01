@@ -42,7 +42,7 @@ class RegistresController extends Controller {
             $registres = Registre::all();
 
             // Return des infos récupèré
-            return view('table\registreTable', [
+            return view('table.registreTable', [
                 'registres' => $registres
             ]);
         }

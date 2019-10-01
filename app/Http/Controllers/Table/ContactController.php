@@ -29,7 +29,7 @@ class ContactController extends Controller {
             $contacts = Contact::all();
 
             // Return des infos récupèré
-            return view('table\carnet', [
+            return view('table.carnet', [
                 'contacts' => $contacts
             ]);
         }
